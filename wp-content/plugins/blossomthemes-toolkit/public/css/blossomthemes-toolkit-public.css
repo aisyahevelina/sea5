@@ -1,0 +1,331 @@
+/*
+ * All of the CSS for your public-facing functionality should be
+ * included in this file.
+ */
+
+/*===============================
+ Author bio style
+================================*/
+.widget_bttk_author_bio{
+	text-align: center;
+}
+
+.widget_bttk_author_bio .image-holder img{
+	vertical-align: top;
+}
+
+.widget_bttk_author_bio .image-holder{margin: 0 0 30px;}
+
+.widget_bttk_author_bio .title-holder{
+	font-size: 28px;
+	line-height: 32px;
+	margin: 0 0 20px;
+}
+
+.widget_bttk_author_bio .signature-holder{
+	margin: 0 0 20px;
+}
+
+.widget_bttk_author_bio .readmore{
+	display: inline-block;
+	padding: 10px 30px;
+	background: #ccc;
+	margin: 0 0 30px;
+}
+
+.widget_bttk_author_bio .author-socicons{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.widget_bttk_author_bio .author-socicons li{
+	display: inline-block;
+	margin: 0 3px;
+}
+
+/*==============================
+ Custom category style
+==============================*/
+.widget_bttk_custom_categories ul li{
+	background-size: cover;
+	width: 100%;
+	height: 100%;
+	position: relative;
+}
+
+.widget_bttk_custom_categories ul li:after{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(0, 0, 0, 0.25);
+	content: '';
+}
+
+.widget_bttk_custom_categories ul li a{
+	display: block;
+	width: 100%;
+	height: 100%;
+	color: #fff;
+	overflow: hidden;
+	position: relative;
+	z-index: 1;
+}
+
+.widget_bttk_custom_categories ul li .cat-title{
+	float: left;
+	font-size: 14px;
+	text-transform: uppercase;
+}
+
+.widget_bttk_custom_categories ul li .post-count{
+	float: right;
+	font-size: 13px;
+	width: 99px;
+	height: 48px;
+	background: #111;
+	text-align: center;
+	line-height: 48px;
+	-webkit-transition: linear 0.2s;
+	-moz-transition: linear 0.2s;
+	transition: linear 0.2s;
+}
+
+.widget_bttk_custom_categories ul li a:hover .post-count,
+.widget_bttk_custom_categories ul li a:hover:focus .post-count{
+	width: 124px;
+}
+
+/*================================
+ Popular post style
+================================*/
+.widget_bttk_popular_post ul li,
+.widget_bttk_pro_recent_post ul li{
+	overflow: hidden;
+}
+
+.widget_bttk_popular_post ul li .post-thumbnail,
+.widget_bttk_pro_recent_post ul li .post-thumbnail{
+	float: left;
+	width: 80px;
+	height: 80px;
+	margin-right: 20px;
+} 
+
+.widget_bttk_popular_post ul li .post-thumbnail img,
+.widget_bttk_pro_recent_post ul li .post-thumbnail img{
+	vertical-align: top;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+.widget_bttk_popular_post ul li .entry-header,
+.widget_bttk_pro_recent_post ul li .entry-header{
+	overflow: hidden;
+}
+
+.widget_bttk_popular_post ul li .entry-header .entry-title,
+.widget_bttk_pro_recent_post ul li .entry-header .entry-title{
+	font-size: 18px;
+	line-height: 26px;
+	margin: 0;
+}
+
+.widget_bttk_popular_post ul li .entry-header .entry-meta,
+.widget_bttk_pro_recent_post ul li .entry-header .entry-meta{
+	font-size: 14px;
+	line-height: 21px;
+}
+
+.widget_bttk_popular_post .style-two li .post-thumbnail,
+.widget_bttk_pro_recent_post .style-two li .post-thumbnail{
+	width: 100%;
+	margin-right: 0;
+	margin-bottom: 20px;
+	height: 190px;
+}
+
+.widget_bttk_popular_post .style-two li .entry-header,
+.widget_bttk_pro_recent_post .style-two li .entry-header{
+	width: 100%;
+	text-align: center;
+	padding: 0 15px;
+}
+
+.widget_bttk_popular_post .style-three li .post-thumbnail,
+.widget_bttk_pro_recent_post .style-three li .post-thumbnail{
+	height: 190px;
+    margin: 0 0 -40px;
+    width: 100%;
+}
+
+.widget_bttk_popular_post .style-three li .entry-header,
+.widget_bttk_pro_recent_post .style-three li .entry-header{
+	background: #fff none repeat scroll 0 0;
+    margin: 0 auto;
+    max-width: 92%;
+    padding: 13px 15px 0;
+    position: relative;
+    text-align: center;
+    width: 100%;
+}
+
+.widget_bttk_popular_post ul li .entry-header .cat-links,
+.widget_bttk_pro_recent_post ul li .entry-header .cat-links{display: none;}
+
+.widget_bttk_popular_post .style-two li .entry-header .cat-links,
+.widget_bttk_pro_recent_post .style-two li .entry-header .cat-links,
+.widget_bttk_popular_post .style-three li .entry-header .cat-links,
+.widget_bttk_pro_recent_post .style-three li .entry-header .cat-links{
+	display: block;
+	font-size: 14px;
+	font-weight: 500;
+}
+
+.widget_bttk_popular_post .style-two li .entry-header .cat-links a,
+.widget_bttk_pro_recent_post .style-two li .entry-header .cat-links a,
+.widget_bttk_popular_post .style-three li .entry-header .cat-links a,
+.widget_bttk_pro_recent_post .style-three li .entry-header .cat-links a{
+	margin: 0 3px;
+}
+
+/*====================================
+ Social icon style
+===================================*/
+.widget_bttk_social_links ul{
+	margin: 0 -2px;
+	overflow: hidden;
+}
+
+.widget_bttk_social_links ul li{
+	float: left;
+	padding: 0 2px;
+	margin: 0 0 4px;
+}
+
+.widget_bttk_social_links ul li a{
+	display: block;
+	width: 63px;
+	height: 63px;
+	background: #111;
+	color: #fff;
+	text-align: center;
+	line-height: 63px;
+}
+
+/*================================
+ Featured post slider style
+================================*/
+.widget_bttk_posts_category_slider_widget .owl-theme .owl-nav [class*="owl-"]{
+	margin: 0;
+	width: 40px;
+	height: 40px;
+	font-size: 0;
+	background: rgba(0, 0, 0, 0.75);
+	border-radius: 0;
+	position: absolute;
+	-webkit-transition: ease 0.2s;
+	-moz-transition: ease 0.2s;
+	transition: ease 0.2s;
+}
+
+.widget_bttk_posts_category_slider_widget .owl-theme .owl-prev{
+	top: 75px;
+	left: 0;
+}
+
+.widget_bttk_posts_category_slider_widget .owl-theme .owl-prev:after{
+	content: '\f104';
+	font-family: 'FontAwesome';
+	font-size: 18px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-webkit-transform: translate(-50%, -50%);
+	-moz-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+}
+
+.widget_bttk_posts_category_slider_widget .owl-next{
+	top: 75px;
+	right: 0;
+}
+
+.widget_bttk_posts_category_slider_widget .owl-theme .owl-next:after{
+	content: '\f105';
+	font-family: 'FontAwesome';
+	font-size: 18px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-webkit-transform: translate(-50%, -50%);
+	-moz-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+}
+
+.widget_bttk_posts_category_slider_widget .post-thumbnail{
+	display: block;
+	margin-bottom: 15px; 
+}
+
+.widget_bttk_posts_category_slider_widget .carousel-title{
+	text-align: center;
+}
+
+.widget_bttk_posts_category_slider_widget .carousel-title .cat-links{
+	display: block;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.widget_bttk_posts_category_slider_widget .carousel-title .cat-links a{margin: 0 3px;}
+
+.widget_bttk_posts_category_slider_widget .carousel-title .title{
+	font-size: 18px;
+	line-height: 26px;
+	font-weight: 400;
+}
+
+.widget_bttk_posts_category_slider_widget .owl-theme .owl-dots .owl-dot span{
+	margin: 0 3px;
+	background: #eee;
+}
+
+.widget_bttk_posts_category_slider_widget .owl-theme .owl-dots .owl-dot span:hover,
+.widget_bttk_posts_category_slider_widget .owl-theme .owl-dots .owl-dot span:hover{
+	background: #111;
+}
+
+.widget_bttk_posts_category_slider_widget .owl-theme .owl-dots .owl-dot.active span{
+	background: #111;
+}
+
+/*========================
+ Image text widget
+========================*/
+.widget_bttk_image_text_widget ul li{
+	position: relative;
+}
+
+.widget_bttk_image_text_widget ul li .btn-readmore{
+	position: absolute;
+	width: 70%;
+	text-align: center;
+	top: 50%;
+	left: 50%;
+	color: #fff;
+	background: #111;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	padding: 12px 29px 9px 32px;
+	-webkit-transform: translate(-50%, -50%);
+	-moz-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+	-webkit-transition: ease 0.2s;
+	-moz-transition: ease 0.2s;
+	transition: ease 0.2s;
+}
+
